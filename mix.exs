@@ -57,7 +57,7 @@ defmodule LivePhone.MixProject do
   defp deps do
     [
       {:phoenix_live_view, ">= 0.0.0"},
-      {:phoenix_html, "3.3"},
+      {:phoenix_html, "~> 3.3"},
       {:phoenix_html_helpers, "~> 1.0"},
       {:ex_phone_number, ">= 0.0.0"},
       {:jason, ">= 0.0.0"},
