@@ -320,12 +320,10 @@ class LivePhone {
 
     // Use your keyboard to select a different country
     this.onKeyNavigation = this.onKeyNavigation.bind(this)
-    document.body.addEventListener('keydown', this.onKeyNavigation, false)
 
     // When the country list overlay is open, you can type to quickly
     // jump to the country starting with your text.
     this.findPartialMatch = this.findPartialMatch.bind(this)
-    document.body.addEventListener('keypress', this.findPartialMatch, false)
 
     // Get reference to textField element
     const textField = this.elements.textField()
